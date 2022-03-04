@@ -2,6 +2,7 @@
   "name": "chrono-node",
   "description": "A natural language date parser in Javascript",
   "homepage": "http://github.com/wanasit/chrono",
+  "postinstall": "npm run build",
   "repository": {
     "type": "git",
     "url": "https://github.com/wanasit/chrono.git"
