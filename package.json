@@ -2,7 +2,6 @@
   "name": "chrono-node",
   "description": "A natural language date parser in Javascript",
   "homepage": "http://github.com/wanasit/chrono",
-  "postinstall": "npm run build",
   "repository": {
     "type": "git",
     "url": "https://github.com/wanasit/chrono.git"
@@ -54,7 +53,8 @@
     "watch": "jest --watch",
     "test": "jest --coverage",
     "test:silent": "jest --silent",
-    "coveralls": "npm run test && cat coverage/lcov.info | coveralls"
+    "coveralls": "npm run test && cat coverage/lcov.info | coveralls",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "dayjs": "^1.10.0"
