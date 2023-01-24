@@ -33,8 +33,7 @@
     "jest": "^26.1.0",
     "prettier": "^2.0.5",
     "ts-jest": "^26.1.1",
-    "typedoc": "^0.20.36",
-    "typescript": "~4.2.4"
+    "typedoc": "^0.20.36"
   },
   "husky": {
     "hooks": {
@@ -57,7 +56,8 @@
     "postinstall": "npm run build"
   },
   "dependencies": {
-    "dayjs": "1.10.1"
+    "dayjs": "1.10.1",
+    "typescript": "~4.2.4"
   },
   "eslintConfig": {
     "env": {
